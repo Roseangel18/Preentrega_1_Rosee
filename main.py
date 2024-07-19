@@ -17,7 +17,7 @@ client_credentials_manager = SpotifyClientCredentials(client_id=client_id,client
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 # Realiza una consulta simple (prueba) a la API de Spotify
-result = sp.search(q='artist:coldplay', type='artist')
+result = sp.search(q='artist:akapella', type='artist')
 
 #imprimo el resultado
 
