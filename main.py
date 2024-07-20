@@ -18,11 +18,11 @@ client_credentials_manager = SpotifyClientCredentials(client_id=client_id,client
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 # Realiza una consulta simple (prueba) a la API de Spotify
-results = sp.search(q='artists:eminen', type='album')
+results = sp.search(q='artists:servando y florentino', type='album')
 
 #imprimo el resultado
 #print(result)
 
 
 # Imprime la respuesta completa para verificar su estructura
-print(json.dumps(results, indent=1))
+print(json.dumps(results, indent=2))
