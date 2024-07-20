@@ -1,7 +1,8 @@
 import spotipy
 import wheel
-import pandas
+import pandas as pd
 import psycopg2
+import json
 
 from spotipy.oauth2 import SpotifyClientCredentials
 
@@ -17,8 +18,11 @@ client_credentials_manager = SpotifyClientCredentials(client_id=client_id,client
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 # Realiza una consulta simple (prueba) a la API de Spotify
-result = sp.search(q='artist:akapella', type='artist')
+results = sp.search(q='artists:eminen', type='album')
 
 #imprimo el resultado
+#print(result)
 
-print(result)
+
+# Imprime la respuesta completa para verificar su estructura
+print(json.dumps(results, indent=1))
