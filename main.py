@@ -152,7 +152,7 @@ df = df[df['Duracion_ms'] != 0]
 df['fecha_lanzamiento'] = pd.to_datetime(df['fecha_lanzamiento'], errors='coerce')
 
 # Mostrar el DataFrame
-print(df)
+#print(df)
 
 # Insertar datos en la tabla de Redshift
 try:
