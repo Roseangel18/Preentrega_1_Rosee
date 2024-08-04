@@ -9,3 +9,29 @@
 2024-08-04 18:02:59,348 - INFO - DataFrame creado exitosamente
 2024-08-04 18:03:00,082 - INFO - Datos insertados exitosamente en Redshift
 2024-08-04 18:03:00,083 - INFO - Conexión a Redshift cerrada
+2024-08-04 18:05:15,795 - INFO - Autenticación exitosa con Spotify
+2024-08-04 18:05:17,328 - ERROR - Error al conectar a Redshift: connection to server at "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com" (52.44.43.227), port 5439 failed: FATAL:  password authentication failed for user "roseangelbazan1_coderhouse"
+connection to server at "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com" (52.44.43.227), port 5439 failed: FATAL:  password authentication failed for user "roseangelbazan1_coderhouse"
+
+2024-08-04 18:06:07,710 - INFO - Autenticación exitosa con Spotify
+2024-08-04 18:06:08,803 - INFO - Conexión exitosa a Redshift
+2024-08-04 18:06:08,804 - INFO - Cursor creado exitosamente
+2024-08-04 18:06:09,298 - INFO - Tabla 'canciones' creada o ya existe
+2024-08-04 18:06:09,799 - INFO - Tabla 'canciones' truncada
+2024-08-04 18:06:09,997 - ERROR - Error al buscar pistas para el año 2022: error: invalid_client, error_description: Invalid client secret
+2024-08-04 18:06:10,144 - ERROR - Error al buscar pistas para el año 2023: error: invalid_client, error_description: Invalid client secret
+2024-08-04 18:06:10,296 - ERROR - Error al buscar pistas para el año 2024: error: invalid_client, error_description: Invalid client secret
+2024-08-04 18:06:10,300 - INFO - DataFrame creado exitosamente
+2024-08-04 18:06:10,307 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-04 18:06:10,307 - INFO - Conexión a Redshift cerrada
+2024-08-04 18:06:50,364 - INFO - Autenticación exitosa con Spotify
+2024-08-04 18:06:51,496 - INFO - Conexión exitosa a Redshift
+2024-08-04 18:06:51,496 - INFO - Cursor creado exitosamente
+2024-08-04 18:06:52,003 - INFO - Tabla 'canciones' creada o ya existe
+2024-08-04 18:06:52,510 - INFO - Tabla 'canciones' truncada
+2024-08-04 18:07:02,602 - INFO - Datos obtenidos para el año 2022
+2024-08-04 18:07:12,606 - INFO - Datos obtenidos para el año 2023
+2024-08-04 18:07:22,929 - INFO - Datos obtenidos para el año 2024
+2024-08-04 18:07:22,931 - INFO - DataFrame creado exitosamente
+2024-08-04 18:07:23,647 - INFO - Datos insertados exitosamente en Redshift
+2024-08-04 18:07:23,648 - INFO - Conexión a Redshift cerrada
