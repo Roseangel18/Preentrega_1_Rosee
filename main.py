@@ -59,7 +59,7 @@ except Exception as e:
 # Crear la tabla si no existe
 try:
     cur.execute("""
-        CREATE TABLE IF NOT EXISTS canciones (
+        CREATE TABLE IF NOT EXISTS roseangelbazan1_coderhouse.canciones (
             id VARCHAR(50) PRIMARY KEY,
             artista VARCHAR(255),
             cancion VARCHAR(255),
@@ -81,7 +81,7 @@ except Exception as e:
 
 # Truncar la tabla
 try:
-    cur.execute("TRUNCATE TABLE canciones")
+    cur.execute("TRUNCATE TABLE roseangelbazan1_coderhouse.canciones")
     conn.commit()
     logging.info("Tabla 'canciones' truncada")
 except Exception as e:
