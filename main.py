@@ -3,8 +3,13 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import psycopg2
 import pandas as pd
 from psycopg2.extras import execute_values
+import logging
 
-# Función para cargar credenciales desde un archivo
+# Configurar el logging
+logging.basicConfig(filename='execution_log.log',
+                    level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
 def load_credentials(filename):
     with open(filename, 'r') as f:
         return f.read().strip()
@@ -14,7 +19,12 @@ client_id = 'db11e97f789a4d48a39afcdda24fb2c0'
 client_secret = load_credentials("client_secret_spotify.txt")
 
 # Autenticación con Spotify
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=client_id, client_secret=client_secret))
+try:
+    sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=client_id, client_secret=client_secret))
+    logging.info("Autenticación exitosa con Spotify")
+except Exception as e:
+    logging.error(f"Error en la autenticación con Spotify: {e}")
+    exit(1)
 
 # Datos de conexión a Redshift
 host = 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com'
@@ -32,13 +42,19 @@ try:
         host=host,
         port=port
     )
-    print("Conexión exitosa a Redshift")
+    logging.info("Conexión exitosa a Redshift")
 except Exception as e:
-    print(f"Error al conectar a Redshift: {e}")
-    exit(1)  # Salir si no se puede conectar a la base de datos
+    logging.error(f"Error al conectar a Redshift: {e}")
+    exit(1)
 
 # Crear un cursor
-cur = conn.cursor()
+try:
+    cur = conn.cursor()
+    logging.info("Cursor creado exitosamente")
+except Exception as e:
+    logging.error(f"Error al crear el cursor: {e}")
+    conn.close()
+    exit(1)
 
 # Crear la tabla si no existe
 try:
@@ -57,9 +73,9 @@ try:
         )
     """)
     conn.commit()
-    print("Tabla 'canciones' creada o ya existe")
+    logging.info("Tabla 'canciones' creada o ya existe")
 except Exception as e:
-    print(f"Error al crear la tabla: {e}")
+    logging.error(f"Error al crear la tabla: {e}")
     conn.close()
     exit(1)
 
@@ -67,9 +83,9 @@ except Exception as e:
 try:
     cur.execute("TRUNCATE TABLE canciones")
     conn.commit()
-    print("Tabla 'canciones' truncada")
+    logging.info("Tabla 'canciones' truncada")
 except Exception as e:
-    print(f"Error al truncar la tabla: {e}")
+    logging.error(f"Error al truncar la tabla: {e}")
     conn.close()
     exit(1)
 
@@ -98,12 +114,16 @@ for year in years:
 
             # Agregar los datos a la lista
             data.append([id, artist_name, track_name, duration_ms, track_genres, album_name, album_img, album_total_tracks, track_popularity, release_date])
-
+        logging.info(f"Datos obtenidos para el año {year}")
     except Exception as e:
-        print(f"Error al buscar pistas para el año {year}: {e}")
+        logging.error(f"Error al buscar pistas para el año {year}: {e}")
 
 # Crear el DataFrame
-df = pd.DataFrame(data, columns=['Id', 'Artista', 'Cancion', 'Duracion_ms', 'Genero', 'Album', 'Album_img', 'Total_canciones_album', 'Popularidad', 'fecha_lanzamiento'])
+try:
+    df = pd.DataFrame(data, columns=['Id', 'Artista', 'Cancion', 'Duracion_ms', 'Genero', 'Album', 'Album_img', 'Total_canciones_album', 'Popularidad', 'fecha_lanzamiento'])
+    logging.info("DataFrame creado exitosamente")
+except Exception as e:
+    logging.error(f"Error al crear el DataFrame: {e}")
 
 # Evitar canciones duplicadas
 df = df.drop_duplicates(subset=['Artista', 'Cancion', 'Album'], keep='first')
@@ -133,11 +153,11 @@ try:
             page_size=len(df)
         )
         conn.commit()
-        print("Datos insertados exitosamente en Redshift")
+        logging.info("Datos insertados exitosamente en Redshift")
 except Exception as e:
-    print(f"Error al insertar datos en Redshift: {e}")
+    logging.error(f"Error al insertar datos en Redshift: {e}")
 finally:
     # Cerrar el cursor y la conexión
     cur.close()
     conn.close()
-    print("Conexión a Redshift cerrada")
+    logging.info("Conexión a Redshift cerrada")

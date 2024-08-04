@@ -1,0 +1,11 @@
+2024-08-04 18:02:25,861 - INFO - Autenticación exitosa con Spotify
+2024-08-04 18:02:27,012 - INFO - Conexión exitosa a Redshift
+2024-08-04 18:02:27,013 - INFO - Cursor creado exitosamente
+2024-08-04 18:02:27,502 - INFO - Tabla 'canciones' creada o ya existe
+2024-08-04 18:02:27,998 - INFO - Tabla 'canciones' truncada
+2024-08-04 18:02:38,652 - INFO - Datos obtenidos para el año 2022
+2024-08-04 18:02:48,886 - INFO - Datos obtenidos para el año 2023
+2024-08-04 18:02:59,348 - INFO - Datos obtenidos para el año 2024
+2024-08-04 18:02:59,348 - INFO - DataFrame creado exitosamente
+2024-08-04 18:03:00,082 - INFO - Datos insertados exitosamente en Redshift
+2024-08-04 18:03:00,083 - INFO - Conexión a Redshift cerrada
