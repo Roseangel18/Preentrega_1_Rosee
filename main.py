@@ -6,7 +6,7 @@ from psycopg2.extras import execute_values
 import logging
 
 # Configurar el logging
-logging.basicConfig(filename='execution_log.log',
+logging.basicConfig(filename='Ejecucion.log',
                     level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
