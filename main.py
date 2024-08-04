@@ -5,7 +5,6 @@ import pandas as pd
 from psycopg2.extras import execute_values
 import logging
 
-
 # Configuración del logging para consola y archivo
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -35,9 +34,9 @@ client_secret = load_credentials("client_secret_spotify.txt")
 # Autenticación con Spotify
 try:
     sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=client_id, client_secret=client_secret))
-    logging.info("Autenticación exitosa con Spotify")
+    logger.info("Autenticación exitosa con Spotify")
 except Exception as e:
-    logging.error(f"Error en la autenticación con Spotify: {e}")
+    logger.error(f"Error en la autenticación con Spotify: {e}")
     exit(1)
 
 # Datos de conexión a Redshift
@@ -56,24 +55,24 @@ try:
         host=host,
         port=port
     )
-    logging.info("Conexión exitosa a Redshift")
+    logger.info("Conexión exitosa a Redshift")
 except Exception as e:
-    logging.error(f"Error al conectar a Redshift: {e}")
+    logger.error(f"Error al conectar a Redshift: {e}")
     exit(1)
 
 # Crear un cursor
 try:
     cur = conn.cursor()
-    logging.info("Cursor creado exitosamente")
+    logger.info("Cursor creado exitosamente")
 except Exception as e:
-    logging.error(f"Error al crear el cursor: {e}")
+    logger.error(f"Error al crear el cursor: {e}")
     conn.close()
     exit(1)
 
 # Crear la tabla si no existe
 try:
     cur.execute("""
-        CREATE TABLE IF NOT EXISTS roseangelbazan1_coderhouse.canciones (
+        CREATE TABLE IF NOT EXISTS canciones (
             id VARCHAR(50) PRIMARY KEY,
             artista VARCHAR(255),
             cancion VARCHAR(255),
@@ -83,23 +82,24 @@ try:
             popularidad INTEGER,
             fecha_lanzamiento DATE,
             duracion_ms INTEGER,
-            album_img VARCHAR(300)
+            album_img VARCHAR(300),
+            fecha_insert TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         )
     """)
     conn.commit()
-    logging.info("Tabla 'canciones' creada o ya existe")
+    logger.info("Tabla 'canciones' creada o ya existe")
 except Exception as e:
-    logging.error(f"Error al crear la tabla: {e}")
+    logger.error(f"Error al crear la tabla: {e}")
     conn.close()
     exit(1)
 
 # Truncar la tabla
 try:
-    cur.execute("TRUNCATE TABLE roseangelbazan1_coderhouse.canciones")
+    cur.execute("TRUNCATE TABLE canciones")
     conn.commit()
-    logging.info("Tabla 'canciones' truncada")
+    logger.info("Tabla 'canciones' truncada")
 except Exception as e:
-    logging.error(f"Error al truncar la tabla: {e}")
+    logger.error(f"Error al truncar la tabla: {e}")
     conn.close()
     exit(1)
 
@@ -128,16 +128,16 @@ for year in years:
 
             # Agregar los datos a la lista
             data.append([id, artist_name, track_name, duration_ms, track_genres, album_name, album_img, album_total_tracks, track_popularity, release_date])
-        logging.info(f"Datos obtenidos para el año {year}")
+        logger.info(f"Datos obtenidos para el año {year}")
     except Exception as e:
-        logging.error(f"Error al buscar pistas para el año {year}: {e}")
+        logger.error(f"Error al buscar pistas para el año {year}: {e}")
 
 # Crear el DataFrame
 try:
     df = pd.DataFrame(data, columns=['Id', 'Artista', 'Cancion', 'Duracion_ms', 'Genero', 'Album', 'Album_img', 'Total_canciones_album', 'Popularidad', 'fecha_lanzamiento'])
-    logging.info("DataFrame creado exitosamente")
+    logger.info("DataFrame creado exitosamente")
 except Exception as e:
-    logging.error(f"Error al crear el DataFrame: {e}")
+    logger.error(f"Error al crear el DataFrame: {e}")
 
 # Evitar canciones duplicadas
 df = df.drop_duplicates(subset=['Artista', 'Cancion', 'Album'], keep='first')
@@ -167,11 +167,12 @@ try:
             page_size=len(df)
         )
         conn.commit()
-        logging.info("Datos insertados exitosamente en Redshift")
+        num_records = len(df)
+        logger.info(f"{num_records} registros insertados exitosamente en Redshift")
 except Exception as e:
-    logging.error(f"Error al insertar datos en Redshift: {e}")
+    logger.error(f"Error al insertar datos en Redshift: {e}")
 finally:
     # Cerrar el cursor y la conexión
     cur.close()
     conn.close()
-    logging.info("Conexión a Redshift cerrada")
+    logger.info("Conexión a Redshift cerrada")
