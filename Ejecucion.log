@@ -75,3 +75,36 @@
 2024-08-04 20:02:58,869 - INFO - DataFrame creado exitosamente
 2024-08-04 20:02:59,679 - INFO - 150 registros insertados exitosamente en Redshift
 2024-08-04 20:02:59,680 - INFO - Conexión a Redshift cerrada
+2024-08-04 20:03:49,143 - INFO - Autenticación exitosa con Spotify
+2024-08-04 20:03:50,242 - INFO - Conexión exitosa a Redshift
+2024-08-04 20:03:50,243 - INFO - Cursor creado exitosamente
+2024-08-04 20:03:50,744 - INFO - Tabla 'canciones' creada o ya existe
+2024-08-04 20:03:51,242 - INFO - Tabla 'canciones' truncada
+2024-08-04 20:04:01,474 - INFO - Datos obtenidos para el año 2022
+2024-08-04 20:04:11,553 - INFO - Datos obtenidos para el año 2023
+2024-08-04 20:04:21,871 - INFO - Datos obtenidos para el año 2024
+2024-08-04 20:04:21,875 - INFO - DataFrame creado exitosamente
+2024-08-04 20:04:22,587 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-04 20:04:22,589 - INFO - Conexión a Redshift cerrada
+2024-08-04 22:16:48,725 - INFO - Autenticación exitosa con Spotify
+2024-08-04 22:16:49,943 - INFO - Conexión exitosa a Redshift
+2024-08-04 22:16:49,943 - INFO - Cursor creado exitosamente
+2024-08-04 22:16:50,447 - INFO - Tabla 'canciones' creada o ya existe
+2024-08-04 22:16:50,957 - INFO - Tabla 'canciones' truncada
+2024-08-04 22:17:01,539 - INFO - Datos obtenidos para el año 2022
+2024-08-04 22:17:11,461 - INFO - Datos obtenidos para el año 2023
+2024-08-04 22:17:22,127 - INFO - Datos obtenidos para el año 2024
+2024-08-04 22:17:22,131 - INFO - DataFrame creado exitosamente
+2024-08-04 22:17:22,855 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-04 22:17:22,857 - INFO - Conexión a Redshift cerrada
+2024-08-04 22:18:53,322 - INFO - Autenticación exitosa con Spotify
+2024-08-04 22:18:54,484 - INFO - Conexión exitosa a Redshift
+2024-08-04 22:18:54,485 - INFO - Cursor creado exitosamente
+2024-08-04 22:18:55,005 - INFO - Tabla 'canciones' creada o ya existe
+2024-08-04 22:18:55,521 - INFO - Tabla 'canciones' truncada
+2024-08-04 22:19:06,176 - INFO - Datos obtenidos para el año 2022
+2024-08-04 22:19:16,589 - INFO - Datos obtenidos para el año 2023
+2024-08-04 22:19:26,825 - INFO - Datos obtenidos para el año 2024
+2024-08-04 22:19:26,829 - INFO - DataFrame creado exitosamente
+2024-08-04 22:19:27,568 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-04 22:19:27,569 - INFO - Conexión a Redshift cerrada
