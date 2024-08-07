@@ -1,0 +1,8 @@
+2024-08-07 16:29:20,517 - INFO - Autenticación exitosa con Spotify
+2024-08-07 16:29:21,755 - INFO - Conexión exitosa a Redshift
+2024-08-07 16:29:22,253 - INFO - Tabla 'canciones' creada o ya existe
+2024-08-07 16:29:22,752 - INFO - Tabla 'canciones' truncada
+2024-08-07 16:29:33,714 - INFO - Datos obtenidos para el año 2022
+2024-08-07 16:29:43,678 - INFO - Datos obtenidos para el año 2023
+2024-08-07 16:29:54,111 - INFO - Datos obtenidos para el año 2024
+2024-08-07 16:29:54,858 - INFO - 150 registros insertados exitosamente en Redshift
