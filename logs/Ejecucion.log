@@ -6,3 +6,76 @@
 2024-08-07 16:29:43,678 - INFO - Datos obtenidos para el año 2023
 2024-08-07 16:29:54,111 - INFO - Datos obtenidos para el año 2024
 2024-08-07 16:29:54,858 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-07 16:43:22,085 - INFO - Autenticación exitosa con Spotify
+2024-08-07 16:43:23,216 - INFO - Conexión exitosa a Redshift
+2024-08-07 16:43:23,735 - INFO - Tabla 'canciones' creada o ya existe
+2024-08-07 16:43:24,249 - INFO - Tabla 'canciones' truncada
+2024-08-07 16:43:35,387 - INFO - Datos obtenidos para el año 2022
+2024-08-07 16:43:45,958 - INFO - Datos obtenidos para el año 2023
+2024-08-07 16:43:56,431 - INFO - Datos obtenidos para el año 2024
+2024-08-07 16:43:56,899 - ERROR - Error al insertar datos en Redshift: INSERT has more target columns than expressions
+
+2024-08-07 16:44:37,618 - INFO - Autenticación exitosa con Spotify
+2024-08-07 16:44:38,742 - INFO - Conexión exitosa a Redshift
+2024-08-07 16:44:39,248 - INFO - Tabla 'canciones' creada o ya existe
+2024-08-07 16:44:39,750 - INFO - Tabla 'canciones' truncada
+2024-08-07 16:44:50,420 - INFO - Datos obtenidos para el año 2022
+2024-08-07 16:45:00,229 - INFO - Datos obtenidos para el año 2023
+2024-08-07 16:45:10,672 - INFO - Datos obtenidos para el año 2024
+2024-08-07 16:45:11,151 - ERROR - Error al insertar datos en Redshift: INSERT has more target columns than expressions
+
+2024-08-07 16:45:25,211 - INFO - Autenticación exitosa con Spotify
+2024-08-07 16:45:26,310 - INFO - Conexión exitosa a Redshift
+2024-08-07 16:45:26,797 - INFO - Tabla 'canciones' creada o ya existe
+2024-08-07 16:45:27,282 - INFO - Tabla 'canciones' truncada
+2024-08-07 16:45:38,009 - INFO - Datos obtenidos para el año 2022
+2024-08-07 16:45:48,315 - INFO - Datos obtenidos para el año 2023
+2024-08-07 16:45:58,665 - INFO - Datos obtenidos para el año 2024
+2024-08-07 16:45:59,385 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-07 16:58:10,657 - INFO - Autenticación exitosa con Spotify
+2024-08-07 16:58:11,819 - INFO - Conexión exitosa a Redshift
+2024-08-07 16:58:12,316 - INFO - Tabla 'canciones' creada o ya existe
+2024-08-07 16:58:12,833 - INFO - Tabla 'canciones' truncada
+2024-08-07 16:58:23,346 - INFO - Datos obtenidos para el año 2022
+2024-08-07 16:58:33,465 - INFO - Datos obtenidos para el año 2023
+2024-08-07 16:58:43,877 - INFO - Datos obtenidos para el año 2024
+2024-08-07 16:58:44,597 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-07 16:59:34,675 - INFO - Autenticación exitosa con Spotify
+2024-08-07 16:59:35,857 - INFO - Conexión exitosa a Redshift
+2024-08-07 16:59:36,358 - INFO - Tabla 'canciones' creada o ya existe
+2024-08-07 16:59:36,866 - INFO - Tabla 'canciones' truncada
+2024-08-07 16:59:47,744 - INFO - Datos obtenidos para el año 2022
+2024-08-07 16:59:57,789 - INFO - Datos obtenidos para el año 2023
+2024-08-07 17:00:08,586 - INFO - Datos obtenidos para el año 2024
+2024-08-07 17:00:09,332 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-07 17:32:47,773 - INFO - Autenticación exitosa con Spotify
+2024-08-07 17:32:48,907 - INFO - Conexión exitosa a Redshift
+2024-08-07 17:32:49,228 - ERROR - Error al dropear la tabla syntax error at or near "EXSTIS"
+LINE 3:             DROP TABLE IF EXSTIS roseangelbazan1_coderhouse....
+                                  ^
+
+2024-08-07 17:35:28,698 - INFO - Autenticación exitosa con Spotify
+2024-08-07 17:35:29,899 - INFO - Conexión exitosa a Redshift
+2024-08-07 17:35:30,413 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-07 17:35:30,930 - INFO - Tabla 'canciones' creada o ya existe
+2024-08-07 17:35:31,444 - INFO - Tabla 'canciones' truncada
+2024-08-07 17:35:42,306 - INFO - Datos obtenidos para el año 2022
+2024-08-07 17:35:53,079 - INFO - Datos obtenidos para el año 2023
+2024-08-07 17:36:04,096 - INFO - Datos obtenidos para el año 2024
+2024-08-07 17:36:04,871 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-07 17:37:24,203 - INFO - Autenticación exitosa con Spotify
+2024-08-07 17:37:25,457 - INFO - Conexión exitosa a Redshift
+2024-08-07 17:37:25,946 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-07 17:37:26,430 - INFO - Tabla 'canciones' creada o ya existe
+2024-08-07 17:37:37,214 - INFO - Datos obtenidos para el año 2022
+2024-08-07 17:37:47,464 - INFO - Datos obtenidos para el año 2023
+2024-08-07 17:37:58,579 - INFO - Datos obtenidos para el año 2024
+2024-08-07 17:37:59,271 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-07 17:38:37,160 - INFO - Autenticación exitosa con Spotify
+2024-08-07 17:38:38,420 - INFO - Conexión exitosa a Redshift
+2024-08-07 17:38:38,892 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-07 17:38:39,403 - INFO - Tabla 'canciones' creada OK
+2024-08-07 17:38:49,995 - INFO - Datos obtenidos para el año 2022
+2024-08-07 17:39:00,557 - INFO - Datos obtenidos para el año 2023
+2024-08-07 17:39:10,990 - INFO - Datos obtenidos para el año 2024
+2024-08-07 17:39:11,699 - INFO - 150 registros insertados exitosamente en Redshift

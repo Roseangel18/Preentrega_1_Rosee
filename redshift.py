@@ -17,6 +17,21 @@ def connect_redshift(host, port, dbname, user, password):
         logging.error(f"Error al conectar a Redshift: {e}")
         exit(1)
 
+def drop_table(cur):
+    try:
+        cur.execute("""
+           
+            DROP TABLE IF EXISTS roseangelbazan1_coderhouse.canciones
+            
+            """)
+        cur.connection.commit()
+        logging.info("Tabla 'caciones' dropeada con exito!")
+    except Exception as e:
+        logging.error(f"Error al dropear la tabla {e}")
+        cur.connetion.close()
+        exit(1)
+            
+
 def create_table(cur):
     try:
         cur.execute("""
@@ -35,12 +50,13 @@ def create_table(cur):
             )
         """)
         cur.connection.commit()
-        logging.info("Tabla 'canciones' creada o ya existe")
+        logging.info("Tabla 'canciones' creada OK")
     except Exception as e:
         logging.error(f"Error al crear la tabla: {e}")
         cur.connection.close()
         exit(1)
-
+        
+"""
 def truncate_table(cur):
     try:
         cur.execute("TRUNCATE TABLE canciones")
@@ -50,6 +66,7 @@ def truncate_table(cur):
         logging.error(f"Error al truncar la tabla: {e}")
         cur.connection.close()
         exit(1)
+"""        
 
 def insert_data(cur, df):
     try:
