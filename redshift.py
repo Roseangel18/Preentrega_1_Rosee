@@ -44,7 +44,7 @@ def create_table(cur):
                 total_canciones_album INTEGER,
                 popularidad INTEGER,
                 fecha_lanzamiento DATE,
-                duracion_ms INTEGER,
+                duracion_ms FLOAT,
                 album_img VARCHAR(300),
                 fecha_insert TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )

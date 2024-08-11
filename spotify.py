@@ -39,6 +39,9 @@ def get_tracks_data(sp, years):
 
 def create_dataframe(data):
     df = pd.DataFrame(data, columns=['Id', 'Artista', 'Cancion', 'Duracion_ms', 'Genero', 'Album', 'Album_img', 'Total_canciones_album', 'Popularidad', 'fecha_lanzamiento'])
+    
+    # Convertir 'duracion_ms' de milisegundos a minutos
+    df['Duracion_ms'] = df['Duracion_ms'] / 60000
     # Evitar canciones duplicadas
     df = df.drop_duplicates(subset=['Artista', 'Cancion', 'Album'], keep='first')
     #aca se reemplaza el campo genero vacio por desconocido

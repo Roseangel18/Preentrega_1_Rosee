@@ -79,3 +79,181 @@ LINE 3:             DROP TABLE IF EXSTIS roseangelbazan1_coderhouse....
 2024-08-07 17:39:00,557 - INFO - Datos obtenidos para el año 2023
 2024-08-07 17:39:10,990 - INFO - Datos obtenidos para el año 2024
 2024-08-07 17:39:11,699 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-08 16:26:32,321 - INFO - Autenticación exitosa con Spotify
+2024-08-08 16:26:33,521 - INFO - Conexión exitosa a Redshift
+2024-08-08 16:26:34,010 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-08 16:26:34,497 - INFO - Tabla 'canciones' creada OK
+2024-08-08 16:26:48,265 - INFO - Datos obtenidos para el año 2022
+2024-08-08 16:27:00,279 - INFO - Datos obtenidos para el año 2023
+2024-08-08 16:27:12,402 - INFO - Datos obtenidos para el año 2024
+2024-08-08 16:27:13,130 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-11 16:23:01,775 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:23:03,637 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:23:04,204 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:23:04,748 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:23:17,226 - INFO - Datos obtenidos para el año 2022
+2024-08-11 16:23:28,048 - INFO - Datos obtenidos para el año 2023
+2024-08-11 16:23:39,068 - INFO - Datos obtenidos para el año 2024
+2024-08-11 16:23:39,863 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-11 16:25:42,855 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:25:45,943 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:25:46,989 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:25:48,246 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:26:02,336 - INFO - Datos obtenidos para el año 2022
+2024-08-11 16:26:14,712 - INFO - Datos obtenidos para el año 2023
+2024-08-11 16:26:25,456 - INFO - Datos obtenidos para el año 2024
+2024-08-11 16:26:26,311 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-11 16:30:37,105 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:30:38,463 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:30:39,039 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:30:39,603 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:30:51,190 - INFO - Datos obtenidos para el año 2022
+2024-08-11 16:31:01,793 - INFO - Datos obtenidos para el año 2023
+2024-08-11 16:31:12,960 - INFO - Datos obtenidos para el año 2024
+2024-08-11 16:31:13,512 - ERROR - Error al insertar datos en Redshift: INSERT has more expressions than target columns
+
+2024-08-11 16:33:10,675 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:33:11,875 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:33:12,422 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:33:12,990 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:33:25,235 - INFO - Datos obtenidos para el año 2022
+2024-08-11 16:33:35,740 - INFO - Datos obtenidos para el año 2023
+2024-08-11 16:33:46,110 - INFO - Datos obtenidos para el año 2024
+2024-08-11 16:34:42,098 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:34:43,362 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:34:44,314 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:34:44,865 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:34:55,470 - INFO - Datos obtenidos para el año 2022
+2024-08-11 16:35:06,493 - INFO - Datos obtenidos para el año 2023
+2024-08-11 16:35:16,539 - INFO - Datos obtenidos para el año 2024
+2024-08-11 16:35:27,770 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-11 16:36:19,144 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:36:20,296 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:36:20,830 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:36:21,353 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:36:32,636 - INFO - Datos obtenidos para el año 2022
+2024-08-11 16:36:42,724 - INFO - Datos obtenidos para el año 2023
+2024-08-11 16:36:54,091 - INFO - Datos obtenidos para el año 2024
+2024-08-11 16:37:33,523 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:37:34,834 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:37:35,378 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:37:35,918 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:37:36,337 - ERROR - Error al buscar pistas para el año 2022: 'duracion_min'
+2024-08-11 16:37:36,730 - ERROR - Error al buscar pistas para el año 2023: 'duracion_min'
+2024-08-11 16:37:37,173 - ERROR - Error al buscar pistas para el año 2024: 'duracion_min'
+2024-08-11 16:40:20,408 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:40:21,677 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:40:22,343 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:40:22,906 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:40:23,428 - ERROR - Error al buscar pistas para el año 2022: 'duracion_min'
+2024-08-11 16:40:23,828 - ERROR - Error al buscar pistas para el año 2023: 'duracion_min'
+2024-08-11 16:40:24,290 - ERROR - Error al buscar pistas para el año 2024: 'duracion_min'
+2024-08-11 16:40:24,298 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-11 16:41:06,481 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:41:07,726 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:41:08,520 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:41:09,067 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:41:09,540 - ERROR - Error al buscar pistas para el año 2022: 'duracion_min'
+2024-08-11 16:41:09,927 - ERROR - Error al buscar pistas para el año 2023: 'duracion_min'
+2024-08-11 16:41:10,292 - ERROR - Error al buscar pistas para el año 2024: 'duracion_min'
+2024-08-11 16:41:10,297 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-11 16:42:18,314 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:42:20,401 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:42:20,985 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:42:21,551 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:42:22,295 - ERROR - Error al buscar pistas para el año 2022: 'duracion_min'
+2024-08-11 16:42:22,710 - ERROR - Error al buscar pistas para el año 2023: 'duracion_min'
+2024-08-11 16:42:23,111 - ERROR - Error al buscar pistas para el año 2024: 'duracion_min'
+2024-08-11 16:42:23,117 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-11 16:43:02,308 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:43:03,458 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:43:03,990 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:43:04,536 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:43:05,231 - ERROR - Error al buscar pistas para el año 2022: 'duracion_min'
+2024-08-11 16:43:05,620 - ERROR - Error al buscar pistas para el año 2023: 'duracion_min'
+2024-08-11 16:43:06,069 - ERROR - Error al buscar pistas para el año 2024: 'duracion_min'
+2024-08-11 16:43:06,075 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-11 16:43:23,419 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:43:24,913 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:43:25,465 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:43:26,014 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:43:27,588 - ERROR - Error al buscar pistas para el año 2022: 'duracion_ms'
+2024-08-11 16:43:28,102 - ERROR - Error al buscar pistas para el año 2023: 'duracion_ms'
+2024-08-11 16:43:28,534 - ERROR - Error al buscar pistas para el año 2024: 'duracion_ms'
+2024-08-11 16:43:28,539 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-11 16:43:55,216 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:43:56,399 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:43:56,952 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:43:57,501 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:43:57,956 - ERROR - Error al buscar pistas para el año 2022: 'duracion_ms'
+2024-08-11 16:43:58,332 - ERROR - Error al buscar pistas para el año 2023: 'duracion_ms'
+2024-08-11 16:43:58,761 - ERROR - Error al buscar pistas para el año 2024: 'duracion_ms'
+2024-08-11 16:44:19,556 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:44:20,819 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:44:21,355 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:44:21,875 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:44:22,369 - ERROR - Error al buscar pistas para el año 2022: 'duracion_ms'
+2024-08-11 16:44:22,834 - ERROR - Error al buscar pistas para el año 2023: 'duracion_ms'
+2024-08-11 16:44:23,214 - ERROR - Error al buscar pistas para el año 2024: 'duracion_ms'
+2024-08-11 16:44:23,219 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-11 16:44:54,469 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:44:55,690 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:44:56,220 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:44:56,758 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:44:57,187 - ERROR - Error al buscar pistas para el año 2022: 'duracion_ms'
+2024-08-11 16:44:57,575 - ERROR - Error al buscar pistas para el año 2023: 'duracion_ms'
+2024-08-11 16:44:58,031 - ERROR - Error al buscar pistas para el año 2024: 'duracion_ms'
+2024-08-11 16:44:58,038 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-11 16:45:23,568 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:45:24,740 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:45:25,288 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:45:25,825 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:45:26,330 - ERROR - Error al buscar pistas para el año 2022: 'duracion_ms'
+2024-08-11 16:45:26,680 - ERROR - Error al buscar pistas para el año 2023: 'duracion_ms'
+2024-08-11 16:45:27,208 - ERROR - Error al buscar pistas para el año 2024: 'duracion_ms'
+2024-08-11 16:45:27,215 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-11 16:47:44,525 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:47:45,800 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:47:46,346 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:47:46,901 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:47:47,483 - ERROR - Error al buscar pistas para el año 2022: 'duracion_ms'
+2024-08-11 16:47:47,844 - ERROR - Error al buscar pistas para el año 2023: 'duracion_ms'
+2024-08-11 16:47:48,253 - ERROR - Error al buscar pistas para el año 2024: 'duracion_ms'
+2024-08-11 16:47:48,259 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-11 16:48:19,918 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:48:21,093 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:48:21,646 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:48:22,192 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:48:32,704 - INFO - Datos obtenidos para el año 2022
+2024-08-11 16:48:43,743 - INFO - Datos obtenidos para el año 2023
+2024-08-11 16:48:54,138 - INFO - Datos obtenidos para el año 2024
+2024-08-11 16:48:55,086 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-11 16:49:42,326 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:49:43,582 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:49:44,098 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:49:44,628 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:49:55,623 - INFO - Datos obtenidos para el año 2022
+2024-08-11 16:50:05,952 - INFO - Datos obtenidos para el año 2023
+2024-08-11 16:50:17,525 - INFO - Datos obtenidos para el año 2024
+2024-08-11 16:52:28,433 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:52:29,717 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:52:30,296 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:52:30,885 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:52:31,612 - ERROR - Error al buscar pistas para el año 2022: 'duration_min'
+2024-08-11 16:52:32,021 - ERROR - Error al buscar pistas para el año 2023: 'duration_min'
+2024-08-11 16:52:32,509 - ERROR - Error al buscar pistas para el año 2024: 'duration_min'
+2024-08-11 16:53:12,962 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:53:14,168 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:53:14,724 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:53:15,298 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:53:26,486 - INFO - Datos obtenidos para el año 2022
+2024-08-11 16:53:38,033 - INFO - Datos obtenidos para el año 2023
+2024-08-11 16:53:48,794 - INFO - Datos obtenidos para el año 2024
+2024-08-11 16:55:28,299 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:55:29,967 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:55:30,505 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:55:31,042 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:55:41,421 - INFO - Datos obtenidos para el año 2022
+2024-08-11 16:55:52,154 - INFO - Datos obtenidos para el año 2023
+2024-08-11 16:56:02,362 - INFO - Datos obtenidos para el año 2024
+2024-08-11 16:56:03,976 - INFO - 150 registros insertados exitosamente en Redshift
