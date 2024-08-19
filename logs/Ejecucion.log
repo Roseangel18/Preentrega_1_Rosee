@@ -257,3 +257,19 @@ LINE 3:             DROP TABLE IF EXSTIS roseangelbazan1_coderhouse....
 2024-08-11 16:55:52,154 - INFO - Datos obtenidos para el año 2023
 2024-08-11 16:56:02,362 - INFO - Datos obtenidos para el año 2024
 2024-08-11 16:56:03,976 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-11 16:59:38,022 - INFO - Autenticación exitosa con Spotify
+2024-08-11 16:59:39,310 - INFO - Conexión exitosa a Redshift
+2024-08-11 16:59:39,868 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-11 16:59:40,417 - INFO - Tabla 'canciones' creada OK
+2024-08-11 16:59:51,154 - INFO - Datos obtenidos para el año 2022
+2024-08-11 17:00:01,063 - INFO - Datos obtenidos para el año 2023
+2024-08-11 17:00:12,317 - INFO - Datos obtenidos para el año 2024
+2024-08-11 17:00:13,098 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-19 20:37:10,409 - INFO - Autenticación exitosa con Spotify
+2024-08-19 20:37:11,843 - INFO - Conexión exitosa a Redshift
+2024-08-19 20:37:12,356 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-19 20:37:12,860 - INFO - Tabla 'canciones' creada OK
+2024-08-19 20:37:24,892 - INFO - Datos obtenidos para el año 2022
+2024-08-19 20:37:35,057 - INFO - Datos obtenidos para el año 2023
+2024-08-19 20:37:45,565 - INFO - Datos obtenidos para el año 2024
+2024-08-19 20:37:56,191 - INFO - 150 registros insertados exitosamente en Redshift
