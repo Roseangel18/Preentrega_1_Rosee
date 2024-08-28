@@ -1,7 +1,10 @@
 import spotipy
+import os
 from spotipy.oauth2 import SpotifyClientCredentials
 import logging
 import pandas as pd
+from dotenv import load_dotenv
+
 
 def authenticate_spotify(client_id, client_secret):
     try:

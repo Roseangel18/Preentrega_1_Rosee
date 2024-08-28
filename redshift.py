@@ -1,6 +1,9 @@
 import psycopg2
 import logging
 from psycopg2.extras import execute_values
+from dotenv import load_dotenv
+
+
 
 def connect_redshift(host, port, dbname, user, password):
     try:

@@ -273,3 +273,147 @@ LINE 3:             DROP TABLE IF EXSTIS roseangelbazan1_coderhouse....
 2024-08-19 20:37:35,057 - INFO - Datos obtenidos para el año 2023
 2024-08-19 20:37:45,565 - INFO - Datos obtenidos para el año 2024
 2024-08-19 20:37:56,191 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-22 18:06:25,936 - INFO - Autenticación exitosa con Spotify
+2024-08-22 18:06:27,116 - INFO - Conexión exitosa a Redshift
+2024-08-22 18:06:27,620 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-22 18:06:28,120 - INFO - Tabla 'canciones' creada OK
+2024-08-22 18:06:42,754 - INFO - Datos obtenidos para el año 2022
+2024-08-22 18:06:57,915 - INFO - Datos obtenidos para el año 2023
+2024-08-22 18:07:12,267 - INFO - Datos obtenidos para el año 2024
+2024-08-22 18:07:19,854 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-28 16:35:26,155 - ERROR - Error en la autenticación con Spotify: No client_id. Pass it or set a SPOTIPY_CLIENT_ID environment variable.
+2024-08-28 16:36:19,654 - ERROR - Error en la autenticación con Spotify: No client_id. Pass it or set a SPOTIPY_CLIENT_ID environment variable.
+2024-08-28 16:36:46,575 - ERROR - Error en la autenticación con Spotify: No client_id. Pass it or set a SPOTIPY_CLIENT_ID environment variable.
+2024-08-28 16:37:37,707 - ERROR - Error en la autenticación con Spotify: No client_id. Pass it or set a SPOTIPY_CLIENT_ID environment variable.
+2024-08-28 16:39:07,176 - ERROR - Error en la autenticación con Spotify: No client_id. Pass it or set a SPOTIPY_CLIENT_ID environment variable.
+2024-08-28 16:39:35,171 - ERROR - Error en la autenticación con Spotify: No client_id. Pass it or set a SPOTIPY_CLIENT_ID environment variable.
+2024-08-28 16:42:50,005 - ERROR - Error en la autenticación con Spotify: No client_id. Pass it or set a SPOTIPY_CLIENT_ID environment variable.
+2024-08-28 16:44:59,470 - INFO - Autenticación exitosa con Spotify
+2024-08-28 16:45:01,250 - ERROR - Error al conectar a Redshift: connection to server at "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com" (52.44.43.227), port 5439 failed: FATAL:  password authentication failed for user "roseangelbazan1_coderhouse"
+connection to server at "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com" (52.44.43.227), port 5439 failed: FATAL:  password authentication failed for user "roseangelbazan1_coderhouse"
+
+2024-08-28 16:47:37,641 - INFO - Autenticación exitosa con Spotify
+2024-08-28 16:47:39,403 - ERROR - Error al conectar a Redshift: connection to server at "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com" (52.44.43.227), port 5439 failed: FATAL:  password authentication failed for user "roseangelbazan1_coderhouse"
+connection to server at "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com" (52.44.43.227), port 5439 failed: FATAL:  password authentication failed for user "roseangelbazan1_coderhouse"
+
+2024-08-28 16:48:52,248 - INFO - Autenticación exitosa con Spotify
+2024-08-28 16:48:53,378 - INFO - Conexión exitosa a Redshift
+2024-08-28 16:48:53,930 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-28 16:48:54,488 - INFO - Tabla 'canciones' creada OK
+2024-08-28 16:48:55,360 - ERROR - Error al buscar pistas para el año 2022: error: invalid_client, error_description: Invalid client
+2024-08-28 16:48:55,505 - ERROR - Error al buscar pistas para el año 2023: error: invalid_client, error_description: Invalid client
+2024-08-28 16:48:55,656 - ERROR - Error al buscar pistas para el año 2024: error: invalid_client, error_description: Invalid client
+2024-08-28 16:48:55,682 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-28 17:04:05,639 - INFO - Autenticación exitosa con Spotify
+2024-08-28 17:04:06,842 - INFO - Conexión exitosa a Redshift
+2024-08-28 17:04:07,354 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-28 17:04:07,868 - INFO - Tabla 'canciones' creada OK
+2024-08-28 17:04:08,071 - ERROR - Error al buscar pistas para el año 2022: error: invalid_client, error_description: Invalid client
+2024-08-28 17:04:08,215 - ERROR - Error al buscar pistas para el año 2023: error: invalid_client, error_description: Invalid client
+2024-08-28 17:04:08,358 - ERROR - Error al buscar pistas para el año 2024: error: invalid_client, error_description: Invalid client
+2024-08-28 17:04:08,381 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-28 17:05:43,056 - INFO - Autenticación exitosa con Spotify
+2024-08-28 17:05:44,215 - INFO - Conexión exitosa a Redshift
+2024-08-28 17:05:44,740 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-28 17:05:45,252 - INFO - Tabla 'canciones' creada OK
+2024-08-28 17:05:45,437 - ERROR - Error al buscar pistas para el año 2022: error: invalid_client, error_description: Invalid client
+2024-08-28 17:05:45,586 - ERROR - Error al buscar pistas para el año 2023: error: invalid_client, error_description: Invalid client
+2024-08-28 17:05:45,738 - ERROR - Error al buscar pistas para el año 2024: error: invalid_client, error_description: Invalid client
+2024-08-28 17:05:45,745 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-28 17:06:15,524 - ERROR - Error en la autenticación con Spotify: No client_secret. Pass it or set a SPOTIPY_CLIENT_SECRET environment variable.
+2024-08-28 17:06:39,182 - INFO - Autenticación exitosa con Spotify
+2024-08-28 17:06:40,300 - INFO - Conexión exitosa a Redshift
+2024-08-28 17:06:40,815 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-28 17:06:41,332 - INFO - Tabla 'canciones' creada OK
+2024-08-28 17:06:41,523 - ERROR - Error al buscar pistas para el año 2022: error: invalid_client, error_description: Invalid client
+2024-08-28 17:06:41,677 - ERROR - Error al buscar pistas para el año 2023: error: invalid_client, error_description: Invalid client
+2024-08-28 17:06:41,827 - ERROR - Error al buscar pistas para el año 2024: error: invalid_client, error_description: Invalid client
+2024-08-28 17:06:41,834 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-28 17:07:43,469 - INFO - Autenticación exitosa con Spotify
+2024-08-28 17:07:44,706 - INFO - Conexión exitosa a Redshift
+2024-08-28 17:07:45,240 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-28 17:07:45,760 - INFO - Tabla 'canciones' creada OK
+2024-08-28 17:07:45,982 - ERROR - Error al buscar pistas para el año 2022: error: invalid_client, error_description: Invalid client
+2024-08-28 17:07:46,143 - ERROR - Error al buscar pistas para el año 2023: error: invalid_client, error_description: Invalid client
+2024-08-28 17:07:46,292 - ERROR - Error al buscar pistas para el año 2024: error: invalid_client, error_description: Invalid client
+2024-08-28 17:07:46,305 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-28 17:08:14,582 - INFO - Autenticación exitosa con Spotify
+2024-08-28 17:08:15,731 - INFO - Conexión exitosa a Redshift
+2024-08-28 17:08:16,253 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-28 17:08:16,807 - INFO - Tabla 'canciones' creada OK
+2024-08-28 17:08:16,994 - ERROR - Error al buscar pistas para el año 2022: error: invalid_client, error_description: Invalid client
+2024-08-28 17:08:17,145 - ERROR - Error al buscar pistas para el año 2023: error: invalid_client, error_description: Invalid client
+2024-08-28 17:08:17,298 - ERROR - Error al buscar pistas para el año 2024: error: invalid_client, error_description: Invalid client
+2024-08-28 17:08:17,307 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-28 17:14:33,673 - INFO - Autenticación exitosa con Spotify
+2024-08-28 17:14:35,023 - INFO - Conexión exitosa a Redshift
+2024-08-28 17:14:35,609 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-28 17:14:36,187 - INFO - Tabla 'canciones' creada OK
+2024-08-28 17:14:36,405 - ERROR - Error al buscar pistas para el año 2022: error: invalid_client, error_description: Invalid client
+2024-08-28 17:14:36,550 - ERROR - Error al buscar pistas para el año 2023: error: invalid_client, error_description: Invalid client
+2024-08-28 17:14:36,698 - ERROR - Error al buscar pistas para el año 2024: error: invalid_client, error_description: Invalid client
+2024-08-28 17:14:36,727 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-28 17:16:52,603 - INFO - Autenticación exitosa con Spotify
+2024-08-28 17:16:53,745 - INFO - Conexión exitosa a Redshift
+2024-08-28 17:16:54,266 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-28 17:16:54,772 - INFO - Tabla 'canciones' creada OK
+2024-08-28 17:16:54,999 - ERROR - Error al buscar pistas para el año 2022: error: invalid_client, error_description: Invalid client
+2024-08-28 17:16:55,153 - ERROR - Error al buscar pistas para el año 2023: error: invalid_client, error_description: Invalid client
+2024-08-28 17:16:55,317 - ERROR - Error al buscar pistas para el año 2024: error: invalid_client, error_description: Invalid client
+2024-08-28 17:16:55,334 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-28 17:23:18,798 - INFO - Autenticación exitosa con Spotify
+2024-08-28 17:23:19,984 - INFO - Conexión exitosa a Redshift
+2024-08-28 17:23:20,589 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-28 17:23:21,104 - INFO - Tabla 'canciones' creada OK
+2024-08-28 17:23:21,336 - ERROR - Error al buscar pistas para el año 2022: error: invalid_client, error_description: Invalid client
+2024-08-28 17:23:21,492 - ERROR - Error al buscar pistas para el año 2023: error: invalid_client, error_description: Invalid client
+2024-08-28 17:23:21,641 - ERROR - Error al buscar pistas para el año 2024: error: invalid_client, error_description: Invalid client
+2024-08-28 17:23:21,658 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-28 17:26:19,171 - INFO - Autenticación exitosa con Spotify
+2024-08-28 17:26:20,376 - INFO - Conexión exitosa a Redshift
+2024-08-28 17:26:20,905 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-28 17:26:21,431 - INFO - Tabla 'canciones' creada OK
+2024-08-28 17:26:21,638 - ERROR - Error al buscar pistas para el año 2022: error: invalid_client, error_description: Invalid client
+2024-08-28 17:26:21,789 - ERROR - Error al buscar pistas para el año 2023: error: invalid_client, error_description: Invalid client
+2024-08-28 17:26:21,935 - ERROR - Error al buscar pistas para el año 2024: error: invalid_client, error_description: Invalid client
+2024-08-28 17:26:21,941 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-28 17:29:26,776 - INFO - Autenticación exitosa con Spotify
+2024-08-28 17:29:28,178 - INFO - Conexión exitosa a Redshift
+2024-08-28 17:29:28,689 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-28 17:29:29,217 - INFO - Tabla 'canciones' creada OK
+2024-08-28 17:29:29,408 - ERROR - Error al buscar pistas para el año 2022: error: invalid_client, error_description: Invalid client
+2024-08-28 17:29:29,558 - ERROR - Error al buscar pistas para el año 2023: error: invalid_client, error_description: Invalid client
+2024-08-28 17:29:29,710 - ERROR - Error al buscar pistas para el año 2024: error: invalid_client, error_description: Invalid client
+2024-08-28 17:29:29,718 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-28 17:30:25,965 - INFO - Autenticación exitosa con Spotify
+2024-08-28 17:30:27,111 - INFO - Conexión exitosa a Redshift
+2024-08-28 17:30:27,624 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-28 17:30:28,138 - INFO - Tabla 'canciones' creada OK
+2024-08-28 17:30:28,315 - ERROR - Error al buscar pistas para el año 2022: error: invalid_client, error_description: Invalid client
+2024-08-28 17:30:28,474 - ERROR - Error al buscar pistas para el año 2023: error: invalid_client, error_description: Invalid client
+2024-08-28 17:30:28,628 - ERROR - Error al buscar pistas para el año 2024: error: invalid_client, error_description: Invalid client
+2024-08-28 17:30:28,637 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-28 17:33:49,354 - INFO - Autenticación exitosa con Spotify
+2024-08-28 17:33:50,650 - INFO - Conexión exitosa a Redshift
+2024-08-28 17:33:51,225 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-28 17:33:51,821 - INFO - Tabla 'canciones' creada OK
+2024-08-28 17:33:52,036 - ERROR - Error al buscar pistas para el año 2022: error: invalid_client, error_description: Invalid client
+2024-08-28 17:33:52,182 - ERROR - Error al buscar pistas para el año 2023: error: invalid_client, error_description: Invalid client
+2024-08-28 17:33:52,328 - ERROR - Error al buscar pistas para el año 2024: error: invalid_client, error_description: Invalid client
+2024-08-28 17:33:52,351 - ERROR - Error al insertar datos en Redshift: list index out of range
+2024-08-28 17:36:51,991 - INFO - Autenticación exitosa con Spotify
+2024-08-28 17:36:53,188 - INFO - Conexión exitosa a Redshift
+2024-08-28 17:36:53,722 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-28 17:36:54,252 - INFO - Tabla 'canciones' creada OK
+2024-08-28 17:37:04,647 - INFO - Datos obtenidos para el año 2022
+2024-08-28 17:37:13,986 - INFO - Datos obtenidos para el año 2023
+2024-08-28 17:37:23,792 - INFO - Datos obtenidos para el año 2024
+2024-08-28 17:37:24,695 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-28 17:41:45,206 - INFO - Autenticación exitosa con Spotify
+2024-08-28 17:41:46,403 - INFO - Conexión exitosa a Redshift
+2024-08-28 17:41:46,935 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-28 17:41:47,468 - INFO - Tabla 'canciones' creada OK
+2024-08-28 17:41:58,367 - INFO - Datos obtenidos para el año 2022
+2024-08-28 17:42:08,569 - INFO - Datos obtenidos para el año 2023
+2024-08-28 17:42:18,742 - INFO - Datos obtenidos para el año 2024
+2024-08-28 17:42:19,496 - INFO - 150 registros insertados exitosamente en Redshift
