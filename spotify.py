@@ -6,6 +6,7 @@ import pandas as pd
 from dotenv import load_dotenv
 
 
+
 def authenticate_spotify(client_id, client_secret):
     try:
         sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=client_id, client_secret=client_secret))
