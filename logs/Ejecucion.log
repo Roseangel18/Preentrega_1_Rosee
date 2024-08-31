@@ -433,3 +433,11 @@ connection to server at "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.a
 2024-08-30 19:12:48,193 - INFO - Datos obtenidos para el año 2023
 2024-08-30 19:12:52,000 - INFO - Datos obtenidos para el año 2024
 2024-08-30 19:12:59,594 - INFO - 150 registros insertados exitosamente en Redshift
+2024-08-31 23:29:43,112 - INFO - Autenticación exitosa con Spotify
+2024-08-31 23:29:43,253 - INFO - Conexión exitosa a Redshift
+2024-08-31 23:29:43,285 - INFO - Tabla 'caciones' dropeada con exito!
+2024-08-31 23:29:43,361 - INFO - Tabla 'canciones' creada OK
+2024-08-31 23:29:47,249 - INFO - Datos obtenidos para el año 2022
+2024-08-31 23:29:50,485 - INFO - Datos obtenidos para el año 2023
+2024-08-31 23:29:58,229 - INFO - Datos obtenidos para el año 2024
+2024-08-31 23:29:58,524 - INFO - 150 registros insertados exitosamente en Redshift
