@@ -60,11 +60,11 @@ services:
 
   analitycs_db:
     image: postgres:13
-    hostname: data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com
+    hostname: olap_db
     environment:
-      POSTGRES_USER: roseangelbazan1_coderhouse
-      POSTGRES_PASSWORD: 9uJpGz43AH
-      POSTGRES_DB: data-engineer-database
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: FIN_MUNDO
     volumes:
       - ./init.sql:/docker-entrypoint-initd.d/init.sql
     ports:
@@ -262,8 +262,8 @@ services:
     environment:
       - ENV_VAR=production
     volumes:
-      - ./app:/app
-    command: python /app/main.py
+      - ./main.py:/workspaces/Preentrega_1_Rosee/main.py
+    command: python ./main.py
     depends_on:
       - postgres
 
