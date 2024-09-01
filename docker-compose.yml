@@ -254,18 +254,6 @@ services:
       airflow-init:
         condition: service_completed_successfully
 
-  # Tu servicio de Python
-  python-app:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    environment:
-      - ENV_VAR=production
-    volumes:
-      - ./main.py:/workspaces/Preentrega_1_Rosee/main.py
-    command: python ./main.py
-    depends_on:
-      - postgres
 
 volumes:
   postgres-db-volume:

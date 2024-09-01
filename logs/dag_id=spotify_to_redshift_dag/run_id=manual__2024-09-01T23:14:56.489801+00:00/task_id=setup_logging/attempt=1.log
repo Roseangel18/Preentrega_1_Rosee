@@ -1,0 +1,41 @@
+[2024-09-01T23:14:57.232+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-09-01T23:14:57.253+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_to_redshift_dag.setup_logging manual__2024-09-01T23:14:56.489801+00:00 [queued]>
+[2024-09-01T23:14:57.259+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_to_redshift_dag.setup_logging manual__2024-09-01T23:14:56.489801+00:00 [queued]>
+[2024-09-01T23:14:57.259+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-09-01T23:14:57.277+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): setup_logging> on 2024-09-01 23:14:56.489801+00:00
+[2024-09-01T23:14:57.283+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=127) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-09-01T23:14:57.285+0000] {standard_task_runner.py:63} INFO - Started process 128 to run task
+[2024-09-01T23:14:57.285+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'spotify_to_redshift_dag', 'setup_logging', 'manual__2024-09-01T23:14:56.489801+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/main_dags.py', '--cfg-path', '/tmp/tmpbq86h0vj']
+[2024-09-01T23:14:57.286+0000] {standard_task_runner.py:91} INFO - Job 6: Subtask setup_logging
+[2024-09-01T23:14:57.343+0000] {task_command.py:426} INFO - Running <TaskInstance: spotify_to_redshift_dag.setup_logging manual__2024-09-01T23:14:56.489801+00:00 [running]> on host 83935c90ea84
+[2024-09-01T23:14:57.654+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spotify_to_redshift_dag' AIRFLOW_CTX_TASK_ID='setup_logging' AIRFLOW_CTX_EXECUTION_DATE='2024-09-01T23:14:56.489801+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-01T23:14:56.489801+00:00'
+[2024-09-01T23:14:57.655+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-09-01T23:14:57.705+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-09-01T23:14:57.708+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/main_dags.py", line 17, in setup_logging_task
+    setup_logging()
+    ^^^^^^^^^^^^^
+NameError: name 'setup_logging' is not defined. Did you mean: 'setup_logging_task'?
+[2024-09-01T23:14:57.792+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=spotify_to_redshift_dag, task_id=setup_logging, run_id=manual__2024-09-01T23:14:56.489801+00:00, execution_date=20240901T231456, start_date=20240901T231457, end_date=20240901T231457
+[2024-09-01T23:14:57.840+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 6 for task setup_logging (name 'setup_logging' is not defined; 128)
+[2024-09-01T23:14:57.885+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-09-01T23:14:57.942+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-09-01T23:14:57.959+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
