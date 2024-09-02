@@ -18,9 +18,9 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copia el script Python al directorio de trabajo en el contenedor
-COPY main.py .
+COPY dags/main_dags.py .
 
 # Especifica el comando que se ejecutará cuando inicie el contenedor
-CMD ["python", "./main.py"]
+CMD ["python", "dags/main_dags.py"]
 
 

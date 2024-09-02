@@ -4,6 +4,7 @@ from airflow.utils.dates import days_ago
 from dotenv import load_dotenv
 import os
 
+
 # Importar las funciones necesarias
 from config import REDSHIFT_HOST, REDSHIFT_PORT, REDSHIFT_DBNAME, REDSHIFT_USER, YEARS
 from utils import setup_logging, load_credentials
