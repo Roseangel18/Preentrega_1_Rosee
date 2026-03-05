@@ -20,7 +20,7 @@ def setup_logging_task():
 def load_credentials_task():
     client_secret = os.getenv("SPOTIFY_CLIENT_ID")
     client_id = os.getenv("SPOTIFY_SECRET_FILE")
-    password = os.getenv("REDSHIFT_PASSWORD_FILE")
+    password = os.getenv("POSTGRES_PASSWORD")
     return client_secret, client_id, password
 
 def run_spotify_to_redshift_task(client_secret, client_id, password):
@@ -59,7 +59,7 @@ default_args = {
 with DAG(
     'spotify_to_redshift_dag',
     default_args=default_args,
-    description='A DAG to transfer Spotify data to Redshift',
+    description='A DAG to transfer Spotify data to postgres',
     schedule_interval=None,  # Puedes ajustar esto según tus necesidades
     start_date=days_ago(1),
     catchup=False,

@@ -14,17 +14,17 @@ def connect_redshift(host, port, dbname, user, password):
             host=host,
             port=port
         )
-        logging.info("Conexión exitosa a Redshift")
+        logging.info("Conexión exitosa a postgres")
         return conn
     except Exception as e:
-        logging.error(f"Error al conectar a Redshift: {e}")
+        logging.error(f"Error al conectar a postgres: {e}")
         exit(1)
 
 def drop_table(cur):
     try:
         cur.execute("""
            
-            DROP TABLE IF EXISTS roseangelbazan1_coderhouse.canciones
+            DROP TABLE IF EXISTS Spoty_bd.canciones
             
             """)
         cur.connection.commit()
@@ -85,6 +85,6 @@ def insert_data(cur, df):
             )
             cur.connection.commit()
             num_records = len(df)
-            logging.info(f"{num_records} registros insertados exitosamente en Redshift")
+            logging.info(f"{num_records} registros insertados exitosamente en postgres")
     except Exception as e:
-        logging.error(f"Error al insertar datos en Redshift: {e}")
+        logging.error(f"Error al insertar datos en postgres: {e}")

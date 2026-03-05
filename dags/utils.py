@@ -5,7 +5,7 @@ def setup_logging():
     logger.setLevel(logging.INFO)
 
     # Crear un manejador de archivo
-    file_handler = logging.FileHandler('logs/Ejecucion.log')
+    file_handler = logging.FileHandler('/workspaces/Preentrega_1_Rosee/logs/Ejecucion.log')
     file_handler.setLevel(logging.INFO)
     file_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
     file_handler.setFormatter(file_formatter)

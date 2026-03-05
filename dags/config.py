@@ -1,6 +1,7 @@
-# Configuración de credenciales y parámetros
-REDSHIFT_HOST = 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com'
-REDSHIFT_PORT = '5439'
-REDSHIFT_DBNAME = 'data-engineer-database'
-REDSHIFT_USER = 'roseangelbazan1_coderhouse'
+# Configuración de conexión a Postgres (antes Redshift)
+POSTGRES_HOST = 'localhost'
+POSTGRES_PORT = '5432'
+POSTGRES_DBNAME = 'Spoty_bd'
+POSTGRES_USER = 'Rose'
+POSTGRES_PASSWORD = 'Rose123'  # 🔑 agrega la contraseña
 YEARS = [2022, 2023, 2024]
