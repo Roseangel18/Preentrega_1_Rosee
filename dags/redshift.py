@@ -12,9 +12,10 @@ def connect_redshift(host, port, dbname, user, password):
             user=user,
             password=password,
             host=host,
-            port=port
+            port=port,
+            options='-c client_encoding=UTF8'
         )
-        logging.info("Conexión exitosa a postgres")
+        logging.info("Conexion exitosa a postgres")
         return conn
     except Exception as e:
         logging.error(f"Error al conectar a postgres: {e}")

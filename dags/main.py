@@ -16,14 +16,15 @@ def main():
     
 
     # Cargar credenciales
-    client_secret = os.getenv("SPOTIFY_CLIENT_ID")
-    client_id = os.getenv("SPOTIFY_SECRET_FILE")
+    client_id = os.getenv("SPOTIFY_CLIENT_ID")
+    client_secret = os.getenv("SPOTIFY_CLIENT_SECRET")
     password = os.getenv("POSTGRES_PASSWORD")
 
     # Autenticación con Spotify
     sp = authenticate_spotify(client_secret, client_id)
 
     # Conectar a Redshift
+    print("Password:", password)
     conn = connect_redshift(POSTGRES_HOST, POSTGRES_PORT, POSTGRES_DBNAME, POSTGRES_USER, password)
 
     # Crear un cursor

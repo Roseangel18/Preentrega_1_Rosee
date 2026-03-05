@@ -1,0 +1,35 @@
+2026-03-05 13:48:47,473 - INFO - Autenticación exitosa con Spotify
+2026-03-05 13:48:47,767 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 13:50:35,806 - INFO - Autenticación exitosa con Spotify
+2026-03-05 13:50:35,831 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 13:51:01,522 - INFO - Autenticación exitosa con Spotify
+2026-03-05 13:51:01,548 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 13:54:57,421 - INFO - Autenticación exitosa con Spotify
+2026-03-05 13:54:57,445 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 13:57:08,858 - INFO - Autenticación exitosa con Spotify
+2026-03-05 13:57:08,884 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 13:58:16,813 - INFO - Autenticación exitosa con Spotify
+2026-03-05 13:58:16,839 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 13:59:46,951 - INFO - Autenticación exitosa con Spotify
+2026-03-05 13:59:46,978 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 14:04:38,452 - ERROR - Error en la autenticación con Spotify: No client_secret. Pass it or set a SPOTIPY_CLIENT_SECRET environment variable.
+2026-03-05 14:05:01,513 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:05:01,538 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 14:06:09,481 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:06:09,506 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 14:07:06,750 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:07:06,775 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 14:07:30,076 - ERROR - Error en la autenticación con Spotify: No client_secret. Pass it or set a SPOTIPY_CLIENT_SECRET environment variable.
+2026-03-05 14:08:12,238 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:08:12,263 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 14:08:22,317 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:08:22,343 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 14:08:40,501 - ERROR - Error en la autenticación con Spotify: No client_secret. Pass it or set a SPOTIPY_CLIENT_SECRET environment variable.
+2026-03-05 14:09:25,843 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:09:25,867 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 14:12:27,554 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:12:27,580 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 14:13:59,564 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:13:59,590 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 14:16:29,453 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:16:29,478 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
