@@ -33,3 +33,63 @@
 2026-03-05 14:13:59,590 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
 2026-03-05 14:16:29,453 - INFO - Autenticación exitosa con Spotify
 2026-03-05 14:16:29,478 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 14:17:08,508 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:17:08,534 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 14:19:08,983 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:19:09,015 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 14:21:49,335 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:21:49,361 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 14:24:48,868 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:24:48,896 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 14:27:27,916 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:27:27,943 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 14:28:59,536 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:28:59,563 - ERROR - Error al conectar a postgres: 'utf-8' codec can't decode byte 0xf3 in position 85: invalid continuation byte
+2026-03-05 14:31:53,259 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:31:53,286 - INFO - Conexion exitosa a postgres
+2026-03-05 14:31:53,288 - INFO - Tabla 'caciones' dropeada con exito!
+2026-03-05 14:31:53,358 - INFO - Tabla 'canciones' creada OK
+2026-03-05 14:31:53,839 - ERROR - Error al buscar pistas para el año 2022: error: invalid_client, error_description: Failed to get client
+2026-03-05 14:31:54,058 - ERROR - Error al buscar pistas para el año 2023: error: invalid_client, error_description: Failed to get client
+2026-03-05 14:31:54,270 - ERROR - Error al buscar pistas para el año 2024: error: invalid_client, error_description: Failed to get client
+2026-03-05 14:31:54,276 - ERROR - Error al insertar datos en postgres: list index out of range
+2026-03-05 14:33:40,844 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:33:40,870 - INFO - Conexion exitosa a postgres
+2026-03-05 14:33:40,877 - INFO - Tabla 'caciones' dropeada con exito!
+2026-03-05 14:33:40,882 - INFO - Tabla 'canciones' creada OK
+2026-03-05 14:33:48,394 - INFO - Datos obtenidos para el año 2022
+2026-03-05 14:33:55,481 - INFO - Datos obtenidos para el año 2023
+2026-03-05 14:34:02,195 - INFO - Datos obtenidos para el año 2024
+2026-03-05 14:34:02,212 - INFO - 75 registros insertados exitosamente en postgres
+2026-03-05 14:35:31,415 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:35:31,441 - INFO - Conexion exitosa a postgres
+2026-03-05 14:35:31,453 - INFO - Tabla 'caciones' dropeada con exito!
+2026-03-05 14:35:31,458 - INFO - Tabla 'canciones' creada OK
+2026-03-05 14:35:38,474 - INFO - Datos obtenidos para el año 2022
+2026-03-05 14:35:45,196 - INFO - Datos obtenidos para el año 2023
+2026-03-05 14:35:51,735 - INFO - Datos obtenidos para el año 2024
+2026-03-05 14:35:51,748 - INFO - 75 registros insertados exitosamente en postgres
+2026-03-05 14:36:11,917 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:36:11,950 - INFO - Conexion exitosa a postgres
+2026-03-05 14:36:11,959 - INFO - Tabla 'caciones' dropeada con exito!
+2026-03-05 14:36:11,982 - INFO - Tabla 'canciones' creada OK
+2026-03-05 14:36:18,782 - INFO - Datos obtenidos para el año 2022
+2026-03-05 14:36:26,227 - INFO - Datos obtenidos para el año 2023
+2026-03-05 14:36:33,028 - INFO - Datos obtenidos para el año 2024
+2026-03-05 14:36:33,044 - INFO - 75 registros insertados exitosamente en postgres
+2026-03-05 14:37:07,400 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:37:07,428 - INFO - Conexion exitosa a postgres
+2026-03-05 14:37:07,437 - INFO - Tabla 'caciones' dropeada con exito!
+2026-03-05 14:37:07,442 - INFO - Tabla 'canciones' creada OK
+2026-03-05 14:37:14,177 - INFO - Datos obtenidos para el año 2022
+2026-03-05 14:37:21,054 - INFO - Datos obtenidos para el año 2023
+2026-03-05 14:37:27,592 - INFO - Datos obtenidos para el año 2024
+2026-03-05 14:37:27,607 - INFO - 75 registros insertados exitosamente en postgres
+2026-03-05 14:40:21,156 - INFO - Autenticación exitosa con Spotify
+2026-03-05 14:40:21,190 - INFO - Conexion exitosa a postgres
+2026-03-05 14:40:21,200 - INFO - Tabla 'caciones' dropeada con exito!
+2026-03-05 14:40:21,204 - INFO - Tabla 'canciones' creada OK
+2026-03-05 14:40:28,253 - INFO - Datos obtenidos para el año 2022
+2026-03-05 14:40:35,025 - INFO - Datos obtenidos para el año 2023
+2026-03-05 14:40:41,772 - INFO - Datos obtenidos para el año 2024
+2026-03-05 14:40:41,780 - INFO - 75 registros insertados exitosamente en postgres

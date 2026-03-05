@@ -1,7 +1,7 @@
 from config import POSTGRES_HOST, POSTGRES_PORT, POSTGRES_DBNAME, POSTGRES_USER, YEARS
 from utils import setup_logging, load_credentials
 from spotify import authenticate_spotify, get_tracks_data, create_dataframe
-from redshift import connect_redshift, create_table,insert_data,drop_table #truncate_table
+from redshift import connect_postgres, create_table,insert_data,drop_table #truncate_table
 from dotenv import load_dotenv
 import os
 
@@ -21,11 +21,11 @@ def main():
     password = os.getenv("POSTGRES_PASSWORD")
 
     # Autenticación con Spotify
-    sp = authenticate_spotify(client_secret, client_id)
+    sp = authenticate_spotify(client_id,client_secret)
 
-    # Conectar a Redshift
-    print("Password:", password)
-    conn = connect_redshift(POSTGRES_HOST, POSTGRES_PORT, POSTGRES_DBNAME, POSTGRES_USER, password)
+    # Conectar a connect_postgres
+    #print("Password:", password)
+    conn = connect_postgres(POSTGRES_HOST, POSTGRES_PORT, POSTGRES_DBNAME, POSTGRES_USER, password)
 
     # Crear un cursor
     cur = conn.cursor()

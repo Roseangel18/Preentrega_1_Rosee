@@ -5,18 +5,19 @@ from dotenv import load_dotenv
 
 
 
-def connect_redshift(host, port, dbname, user, password):
+def connect_postgres(host, port, dbname, user, password):
     try:
         conn = psycopg2.connect(
             dbname=dbname,
             user=user,
             password=password,
             host=host,
-            port=port,
-            options='-c client_encoding=UTF8'
+            port=port
         )
+
         logging.info("Conexion exitosa a postgres")
         return conn
+
     except Exception as e:
         logging.error(f"Error al conectar a postgres: {e}")
         exit(1)
@@ -25,14 +26,14 @@ def drop_table(cur):
     try:
         cur.execute("""
            
-            DROP TABLE IF EXISTS Spoty_bd.canciones
+            DROP TABLE IF EXISTS canciones
             
             """)
         cur.connection.commit()
         logging.info("Tabla 'caciones' dropeada con exito!")
     except Exception as e:
         logging.error(f"Error al dropear la tabla {e}")
-        cur.connetion.close()
+        cur.connection.close()
         exit(1)
             
 
@@ -74,6 +75,8 @@ def truncate_table(cur):
 
 def insert_data(cur, df):
     try:
+        #print(df.head())
+        #print(df.dtypes)
         with cur.connection.cursor() as cur:
             execute_values(
                 cur,
